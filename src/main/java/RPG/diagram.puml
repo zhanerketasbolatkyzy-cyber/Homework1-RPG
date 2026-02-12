@@ -1,0 +1,11 @@
+@startuml
+
+class Warrior
+class Mage
+class Archer
+
+Warrior --|> GameCharacter
+Mage --|> GameCharacter
+Archer --|> GameCharacter
+
+@enduml

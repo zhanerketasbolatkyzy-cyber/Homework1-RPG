@@ -9,6 +9,7 @@ public abstract class Drone {
             throw new IllegalArgumentException("maxPayloadKg must be > 0");
         }
         this.id = id;
+        
         this.maxPayloadKg = maxPayloadKg;
         this.status = DroneStatus.IDLE;
     }
